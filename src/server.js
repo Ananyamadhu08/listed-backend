@@ -30,9 +30,9 @@ app.get("/data", (req, res) => {
         ],
         lineChartDataOptions: {
             curveType: "function",
-            legend: { position: "bottom" },
+            legend: { position: "none" },
             series: [
-              {color: '#E9A0A0'},
+              { color: '#E9A0A0'},
               { color: '#9BDD7C'}
             ]
         }
